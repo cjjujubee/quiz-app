@@ -14,23 +14,23 @@
 		<div class="col s6 offset-s3">
 			<div class="card-panel white">
           <span>
-          	<h3 id="question">Question</h3>
+          	<h5 id="question">How many national parks are in the United States?</h5>
 	         <form action="#">
 			    <p>
 			      <input name="userGuess" type="radio" id="answer1" value="0"/>
-			      <label for="answer1" id="choice1" >Answer1</label>
+			      <label for="answer1" id="choice1" >100</label>
 			    </p>
 			    <p>
 			      <input name="userGuess" type="radio" id="answer2" value="1" />
-			      <label for="answer2" id="choice2">Answer2</label>
+			      <label for="answer2" id="choice2">51</label>
 			    </p>
 				<p>
 			      <input name="userGuess" type="radio" id="answer3" value="2"/>
-			      <label for="answer3" id="choice3">Answer3</label>
+			      <label for="answer3" id="choice3">58</label>
 			    </p>
 			    <p>
 			      <input name="userGuess" type="radio" id="answer4" value="3"/>
-			      <label for="answer4" id="choice4">Answer4</label>
+			      <label for="answer4" id="choice4">37</label>
 			    </p>
 			    <button class="btn waves-effect waves-light disabled" type="submit" name="userGuess" id="submitButton" disabled>Submit
     			</button>
@@ -41,7 +41,17 @@
 			</div>
 		</div>
 	</div>
-	<div class="center-align">Score Placeholder</div>
+	<div class="center-align userScoreTally">Score Placeholder</div>
+</div>
+<div id="correctAnswers">
+	<ul>
+		<li id ="clone" style="display:none">
+			<h4>What Do You Know About Your National Parks?</h4>
+			<ol>
+				
+			</ol>
+		</li>
+	</ul>
 </div>
 
 	<script src="http://code.jquery.com/jquery.min.js"></script>
