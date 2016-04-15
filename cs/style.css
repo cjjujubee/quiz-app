@@ -4,10 +4,18 @@ html {
 }
 
 body {
-    background-image: url('https://images.unsplash.com/photo-1457725428622-efbbd8b7b224?crop=entropy&fit=crop&fm=jpg&h=1300&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1175');
+    background-image: url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c1fdd6b331a4f99ff0a94f8dcca23f4e');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h2 {
+	font-weight: bolder;
+	color: #B2EBF2;
+;
+
+}
+
 .content {
     position: absolute;
   	top: 50%;
@@ -20,6 +28,16 @@ body {
     padding: 5px 0;
 }
 
-#newGameButton {
-	display: none;
+.numCorrect, .userScoreTally {
+	color: white;
+	font-size: 2em;
+}
+
+#correctAnswers {
+	color: white;
+	font-size: 1em;
+}
+
+#clone {
+	font-size: 1.5em;
 }
